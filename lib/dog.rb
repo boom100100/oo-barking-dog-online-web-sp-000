@@ -5,6 +5,11 @@ class Dog
     @name = "Fido"
   end
 
+
+  def name
+    "Fido"
+  end
+
   def bark
     puts "Woo"
   end
