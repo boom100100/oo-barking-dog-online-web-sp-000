@@ -2,11 +2,14 @@
 
 class Dog
   def initialize()
-    @name = "Fido"
+  end
+
+  def name=(name)
+    @name = name
   end
 
   def name
-    "Fido"
+    @name
   end
 
   def bark
